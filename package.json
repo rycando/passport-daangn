@@ -1,31 +1,24 @@
 {
-  "name": "passport-local",
+  "name": "passport-daangn",
   "version": "1.0.0",
-  "description": "Local username and password authentication strategy for Passport.",
+  "description": "daangn authentication strategy for Passport.",
   "keywords": [
     "passport",
-    "local",
+    "daangn",
     "auth",
     "authn",
-    "authentication",
-    "username",
-    "password"
+    "authentication"
   ],
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "rudy",
+    "email": "rycando@naver.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-local.git"
+    "url": "git://github.com/rycando/passport-daangn"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-local/issues"
-  },
-  "funding": {
-    "type": "github",
-    "url": "https://github.com/sponsors/jaredhanson"
+    "url": "http://github.com/rycando/passport-daangn/issues"
   },
   "license": "MIT",
   "licenses": [
