@@ -36,7 +36,9 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "passport-strategy": "1.x.x"
+    "passport-strategy": "1.x.x",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
   },
   "devDependencies": {
     "make-node": "0.4.6",
