@@ -4,10 +4,9 @@
 
 ---
 
-[![npm](https://img.shields.io/npm/v/passport-local.svg)](https://www.npmjs.com/package/passport-local)
-[![build](https://img.shields.io/travis/jaredhanson/passport-local.svg)](https://travis-ci.org/jaredhanson/passport-local)
-[![coverage](https://img.shields.io/coveralls/jaredhanson/passport-local.svg)](https://coveralls.io/github/jaredhanson/passport-local)
-[...](https://github.com/jaredhanson/passport-local/wiki/Status)
+[![npm](https://img.shields.io/npm/v/passport-daangn.svg)](https://www.npmjs.com/package/passport-daangn)
+[![build](https://img.shields.io/travis/rycando/passport-daangn.svg)](https://travis-ci.org/rycando/passport-daangn)
+[![coverage](https://img.shields.io/coveralls/rycando/passport-daangn.svg)](https://coveralls.io/github/rycando/passport-daangn)
 
 ## Install
 
