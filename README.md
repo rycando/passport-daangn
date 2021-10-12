@@ -35,7 +35,9 @@ The available options are:
 
 - `codeField` - Optional, defaults to 'code'
 - `env` - Optional, defaults to 'dev'
-- `scope` - Optional, defaults to 'account'
+- `scope` - Optional, defaults to 'account/profile'
+- `app_id` - Essential
+- `app_secret` - Essential
 
 Both fields define the name of the properties in the POST body that are sent to the server.
 
@@ -48,7 +50,9 @@ differently, options are available to change the defaults.
     passport.use(new LocalStrategy({
         codeField: 'authCode',
         env: 'live',
-        scope: 'profile+account'
+        scope: 'account/profile',
+        app_id: '',
+        app_secret: '',
       },
       function(access_token, done) {
         // ...
@@ -62,8 +66,10 @@ accordingly.
     passport.use(new LocalStrategy({
         codeField: 'authCode',
         env: 'live',
-        scope: 'profile+account',
+        scope: 'account/profile'
         passReqToCallback: true,
+        app_id: '',
+        app_secret: '',
       },
       function(req, access_token, done) {
         // request object is now first argument
